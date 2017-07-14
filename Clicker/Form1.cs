@@ -15,6 +15,7 @@ namespace Clicker
 
         public double money = 0;
         public double amount = 1.5;
+        public double moreAmount = 0;
         bool isUnlocked1 = false;
         bool isUnlocked2 = false;
         bool isUnlocked3 = false;
@@ -123,6 +124,15 @@ namespace Clicker
             
         }
 
+        private void moneyPerSec_Tick(object sender, EventArgs e)
+        {
+            money += moreAmount;
+            UpdateCounter();
+        }
 
+        private void Something_Click(object sender, EventArgs e)
+        {
+            moreAmount += 2;
+        }
     }
 }

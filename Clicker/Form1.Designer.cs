@@ -40,6 +40,8 @@
             this.winThis = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.moneyPerSec = new System.Windows.Forms.Timer(this.components);
+            this.Something = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -142,11 +144,28 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Money per click: ";
             // 
+            // moneyPerSec
+            // 
+            this.moneyPerSec.Enabled = true;
+            this.moneyPerSec.Interval = 1000;
+            this.moneyPerSec.Tick += new System.EventHandler(this.moneyPerSec_Tick);
+            // 
+            // Something
+            // 
+            this.Something.Location = new System.Drawing.Point(164, 76);
+            this.Something.Name = "Something";
+            this.Something.Size = new System.Drawing.Size(101, 23);
+            this.Something.TabIndex = 11;
+            this.Something.Text = "2$ per sec";
+            this.Something.UseVisualStyleBackColor = true;
+            this.Something.Click += new System.EventHandler(this.Something_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 325);
+            this.Controls.Add(this.Something);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.winThis);
             this.Controls.Add(this.label2);
@@ -177,6 +196,8 @@
         private System.Windows.Forms.Button winThis;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer moneyPerSec;
+        private System.Windows.Forms.Button Something;
     }
 }
 
