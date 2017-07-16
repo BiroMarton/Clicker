@@ -118,6 +118,7 @@ namespace Clicker
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            moneyPerSec.Enabled = false;
                 this.Close();
             
             
@@ -132,7 +133,14 @@ namespace Clicker
 
         private void Something_Click(object sender, EventArgs e)
         {
-            moreAmount += 2;
+
+            if (money >= 120)
+            {
+                moreAmount += 4;
+                money -= 120;
+                Something.Visible = false;
+            }
+            
         }
     }
 }

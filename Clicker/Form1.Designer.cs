@@ -122,7 +122,7 @@
             // winThis
             // 
             this.winThis.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.winThis.Location = new System.Drawing.Point(280, 165);
+            this.winThis.Location = new System.Drawing.Point(308, 232);
             this.winThis.Name = "winThis";
             this.winThis.Size = new System.Drawing.Size(192, 73);
             this.winThis.TabIndex = 9;
@@ -156,7 +156,7 @@
             this.Something.Name = "Something";
             this.Something.Size = new System.Drawing.Size(101, 23);
             this.Something.TabIndex = 11;
-            this.Something.Text = "2$ per sec";
+            this.Something.Text = "4$/s (120$)";
             this.Something.UseVisualStyleBackColor = true;
             this.Something.Click += new System.EventHandler(this.Something_Click);
             // 
