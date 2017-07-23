@@ -7,3 +7,12 @@ D:\Project\Clicker\Clicker\obj\Debug\Clicker.Properties.Resources.resources
 D:\Project\Clicker\Clicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
 D:\Project\Clicker\Clicker\obj\Debug\Clicker.exe
 D:\Project\Clicker\Clicker\obj\Debug\Clicker.pdb
+C:\Git repo\Clicker\Clicker\bin\Debug\Clicker.exe.config
+C:\Git repo\Clicker\Clicker\bin\Debug\Clicker.exe
+C:\Git repo\Clicker\Clicker\bin\Debug\Clicker.pdb
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.csprojResolveAssemblyReference.cache
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.Form1.resources
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.Properties.Resources.resources
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.exe
+C:\Git repo\Clicker\Clicker\obj\Debug\Clicker.pdb

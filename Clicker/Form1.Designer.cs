@@ -42,6 +42,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.moneyPerSec = new System.Windows.Forms.Timer(this.components);
             this.Something = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.mPS = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -114,7 +116,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(118, 47);
+            this.label2.Location = new System.Drawing.Point(115, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 8;
@@ -140,9 +142,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(24, 47);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Money per click: ";
+            this.label3.Text = "Money per click:";
             // 
             // moneyPerSec
             // 
@@ -160,11 +162,30 @@
             this.Something.UseVisualStyleBackColor = true;
             this.Something.Click += new System.EventHandler(this.Something_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(164, 46);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(80, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Money per sec:";
+            // 
+            // mPS
+            // 
+            this.mPS.AutoSize = true;
+            this.mPS.Location = new System.Drawing.Point(244, 47);
+            this.mPS.Name = "mPS";
+            this.mPS.Size = new System.Drawing.Size(0, 13);
+            this.mPS.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 325);
+            this.Controls.Add(this.mPS);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Something);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.winThis);
@@ -178,6 +199,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Idiot Clicker 4000 Deluxe!";
+            this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,6 +220,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer moneyPerSec;
         private System.Windows.Forms.Button Something;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label mPS;
     }
 }
 
